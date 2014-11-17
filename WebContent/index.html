@@ -12,10 +12,10 @@
     <title>2 Col Portfolio - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link  href="css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Custom CSS -->
-    <link href="css/2-col-portfolio.css" rel="stylesheet">
+    <link id="theme" href="css/2-col-portfolio.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,6 +25,7 @@
     <![endif]-->
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="./js/font-size.js"></script>
+	<script src="./js/theme-change.js"></script>
 </head>
 
 <body>
@@ -51,14 +52,14 @@
                     <li>
                         <a href="contato.html">Contact</a>
                     </li>
+                    <li>
+                    	<button class="increment-font-size">A+</button>
+						<button class="decrement-font-size">A-</button>
+						<button class="theme-black">black</button>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-            <div class="font-controller" style="float:right;">
-          	  	<button class="increment-font-size">A+</button>
-				<button class="decrement-font-size">A-</button>
-            </div>
-            <br style="clear:both;" />
         </div>
         <!-- /.container -->
     </nav>

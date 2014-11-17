@@ -23,5 +23,4 @@ $( document ).ready(function() {
 	$(".decrement-font-size").click(function(){
 		FontUtil.decrement();
 	});
-	
 });

@@ -7,7 +7,19 @@ var ThemeUtil = {
 
 
 $( document ).ready(function() {			
-	$(".theme-black").click(function(evt){
+	$(".theme-default").click(function(evt){
+		ThemeUtil.use("bootstrap.min.css");
+	});
+	
+	$(".theme-cosmo").click(function(evt){
 		ThemeUtil.use("bootstrap.cosmo.min.css");
+	});
+	
+	$(".theme-cyborg").click(function(evt){
+		ThemeUtil.use("bootstrap.cyborg.min.css");
+	});
+	
+	$(".theme-paper").click(function(evt){
+		ThemeUtil.use("bootstrap.paper.min.css");
 	});
 });
